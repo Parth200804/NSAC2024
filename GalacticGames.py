@@ -23,7 +23,7 @@ CYAN = (0, 255, 255)
 font = pygame.font.SysFont(None, 36)
 
 # Load astronaut image
-astronaut_img = pygame.image.load("F:/Projects/Nasa Space App 2024/2-D Game/astronaut.png")
+astronaut_img = pygame.image.load("astronaut.png")
 astronaut_img = pygame.transform.scale(astronaut_img, (50,70))
 
 # Spaceship environment
@@ -32,25 +32,25 @@ spaceship_height = SCREEN_HEIGHT // 2
 spaceship_surface = pygame.Rect(0, SCREEN_HEIGHT // 2, spaceship_width, spaceship_height)
 
 # Load spaceship surface image
-spaceship_surface_img = pygame.image.load("F:/Projects/Nasa Space App 2024/2-D Game/spaceship_surface.png")
+spaceship_surface_img = pygame.image.load("spaceship_surface.png")
 spaceship_width = SCREEN_WIDTH
 spaceship_height = SCREEN_HEIGHT // 2
 spaceship_surface_img = pygame.transform.scale(spaceship_surface_img, (spaceship_width, spaceship_height))
 
 # Load images for food, oxygen tank, and power kit
-food_img = pygame.image.load("F:/Projects/Nasa Space App 2024/2-D Game/food.png")
+food_img = pygame.image.load("food.png")
 food_img = pygame.transform.scale(food_img, (40, 40))
 
-oxygen_tank_img = pygame.image.load("F:/Projects/Nasa Space App 2024/2-D Game/oxygen.png")
+oxygen_tank_img = pygame.image.load("oxygen.png")
 oxygen_tank_img = pygame.transform.scale(oxygen_tank_img, (40, 40))
 
-power_kit_img = pygame.image.load("F:/Projects/Nasa Space App 2024/2-D Game/power.png")
+power_kit_img = pygame.image.load("power.png")
 power_kit_img = pygame.transform.scale(power_kit_img, (40, 40))
 
-tool_kit_img = pygame.image.load("F:/Projects/Nasa Space App 2024/2-D Game/tool.png")
+tool_kit_img = pygame.image.load("tool.png")
 tool_kit_img = pygame.transform.scale(tool_kit_img, (40, 40))
 
-repair_kit_img = pygame.image.load("F:/Projects/Nasa Space App 2024/2-D Game/repair.png")
+repair_kit_img = pygame.image.load("repair.png")
 repair_kit_img = pygame.transform.scale(repair_kit_img, (40, 40))
 
 # Player (Astronaut) variables
